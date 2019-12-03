@@ -1,0 +1,42 @@
+table,
+td,
+th,
+tr {
+    border: 1px solid #e8e8e8;
+    font-family: monospace;
+}
+
+th,
+td {
+    padding: 10px 20px;
+}
+
+
+input {
+    padding: 10px 20px;
+    border: 1px solid #e8e8e8;
+    margin: 10px 0;
+}
+
+/* .row {
+    display: none;
+} */
+
+
+
+/* ------------------- Pagination --------------------- */
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+.pagination a.active {
+    background-color: #484848;
+    color: white;
+}
+  
+.pagination a:hover:not(.active) {background-color: #ddd;}

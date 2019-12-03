@@ -1,0 +1,208 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    
+
+    <div>
+    <select id="mySelect" onchange="myChangeFunction()">
+            <option value="nume">Nume</option>
+            <option value="prenume">Prenume</option>
+            <option value="virsta">Virsta</option>
+          </select>
+
+    <input id="inputID" type="text" onkeyup="sortColumn()">
+    </div>
+    
+    <table id="tableID" class="table ">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NUME</th>
+                <th>PRENUME</th>
+                <th>VARSTA</th>
+                <th>TELEFON</th>
+                <th>e-mail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="row">
+                <td>1</td>
+                <td>Popa</td>
+                <td>Ecaterina</td>
+                <td>25</td>
+                <td>069854777</td>
+                <td>ecaterina@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>2</td>
+                <td>Cebotari</td>
+                <td>Mariana</td>
+                <td>20</td>
+                <td>069854778</td>
+                <td>mariana@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>3</td>
+                <td>Cebotari</td>
+                <td>Marin</td>
+                <td>24</td>
+                <td>069854779</td>
+                <td>marin@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>4</td>
+                <td>Gontari</td>
+                <td>Vadim</td>
+                <td>45</td>
+                <td>069854780</td>
+                <td>vadim@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>5</td>
+                <td>Coretchi</td>
+                <td>Mihai</td>
+                <td>17</td>
+                <td>069854781</td>
+                <td>mihai@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>6</td>
+                <td>Speianu</td>
+                <td>Andrian</td>
+                <td>17</td>
+                <td>069854782</td>
+                <td>andrian@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>7</td>
+                <td>Nasu</td>
+                <td>Denis</td>
+                <td>16</td>
+                <td>069854783</td>
+                <td>denis@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>8</td>
+                <td>Popa</td>
+                <td>Ecaterina</td>
+                <td>25</td>
+                <td>069854777</td>
+                <td>ecaterina@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>9</td>
+                <td>Cebotari</td>
+                <td>Mariana</td>
+                <td>20</td>
+                <td>069854778</td>
+                <td>mariana@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>10</td>
+                <td>Cebotari</td>
+                <td>Marin</td>
+                <td>24</td>
+                <td>069854779</td>
+                <td>marin@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>11</td>
+                <td>Gontari</td>
+                <td>Vadim</td>
+                <td>45</td>
+                <td>069854780</td>
+                <td>vadim@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>12</td>
+                <td>Coretchi</td>
+                <td>Mihai</td>
+                <td>17</td>
+                <td>069854781</td>
+                <td>mihai@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>13</td>
+                <td>Speianu</td>
+                <td>Andrian</td>
+                <td>17</td>
+                <td>069854782</td>
+                <td>andrian@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>14</td>
+                <td>Nasu</td>
+                <td>Denis</td>
+                <td>16</td>
+                <td>069854783</td>
+                <td>denis@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>15</td>
+                <td>Popa</td>
+                <td>Ecaterina</td>
+                <td>25</td>
+                <td>069854777</td>
+                <td>ecaterina@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>16</td>
+                <td>Cebotari</td>
+                <td>Mariana</td>
+                <td>20</td>
+                <td>069854778</td>
+                <td>mariana@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>17</td>
+                <td>Cebotari</td>
+                <td>Marin</td>
+                <td>24</td>
+                <td>069854779</td>
+                <td>marin@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>18</td>
+                <td>Gontari</td>
+                <td>Vadim</td>
+                <td>45</td>
+                <td>069854780</td>
+                <td>vadim@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>19</td>
+                <td>Coretchi</td>
+                <td>Mihai</td>
+                <td>17</td>
+                <td>069854781</td>
+                <td>mihai@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>20</td>
+                <td>Speianu</td>
+                <td>Andrian</td>
+                <td>17</td>
+                <td>069854782</td>
+                <td>andrian@gmail.com</td>
+            </tr>
+            <tr class="row">
+                <td>21</td>
+                <td>Nasu</td>
+                <td>Denis</td>
+                <td>16</td>
+                <td>069854783</td>
+                <td>denis@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="pagination">
+        
+    </div>
+</body>
+
+</html>
